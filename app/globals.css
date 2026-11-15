@@ -1,0 +1,37 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --bg: #F8F7F4; --ink: #1A1A1A; --sub: #6B6B6B; --acc: #1F2A44; --line: #E6E3DC; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+.wrap { max-width: 480px; margin: 0 auto; padding: 40px 18px 56px; }
+
+.head { text-align: center; }
+.logo { width: 72px; height: 72px; margin: 0 auto 14px; border-radius: 50%; background: #fff; display: grid; place-items: center; font-size: 34px; border: 1px solid var(--line); }
+.head h1 { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; }
+.sub { margin-top: 6px; font-size: 14px; color: var(--sub); }
+.ig { display: inline-block; margin-top: 12px; font-size: 13px; font-weight: 700; color: var(--acc); }
+
+.notice { margin: 24px 0 8px; padding: 12px 14px; background: #ECEAE4; border-radius: 12px; font-size: 12px; line-height: 1.55; color: #555; }
+
+.post { margin-top: 28px; scroll-margin-top: 16px; }
+.post-head { margin-bottom: 12px; }
+.date { font-size: 12px; font-weight: 700; color: var(--acc); }
+.post-head h2 { margin-top: 2px; font-size: 18px; font-weight: 800; letter-spacing: -0.4px; }
+
+.list { list-style: none; display: grid; gap: 10px; }
+.card { display: flex; align-items: center; gap: 12px; padding: 10px; background: #fff; border: 1px solid var(--line); border-radius: 16px; transition: transform .12s ease, box-shadow .12s ease; }
+a.card:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(0,0,0,.06); }
+a.card:active { transform: scale(.99); }
+.card.off { opacity: .55; }
+.thumb { width: 64px; height: 64px; flex: none; border-radius: 12px; object-fit: cover; background: #f2f2f2; }
+.info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.num { font-size: 11px; font-weight: 700; color: #A0A0A0; }
+.name { font-size: 14px; font-weight: 700; line-height: 1.35; word-break: keep-all; }
+.price { font-size: 13px; font-weight: 700; color: var(--acc); }
+.go { flex: none; padding: 8px 12px; border-radius: 999px; background: var(--acc); color: #fff; font-size: 12px; font-weight: 700; }
+.card.off .go { background: #B5B5B5; }
+
+.foot { margin-top: 36px; text-align: center; font-size: 11px; color: #A0A0A0; }

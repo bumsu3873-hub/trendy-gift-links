@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1115-anniversary",
+    "date": "2026-11-15",
+    "title": "기념일에 남자친구 챙겨줄 선물 4",
+    "products": [
+      {
+        "name": "다니엘 웰링턴 아이코닉 크로노그래프 링크 아크틱",
+        "price": "425,600원",
+        "image": "/thumbs/dw-iconic-arctic.png",
+        "url": "https://naver.me/5t72oRYw"
+      },
+      {
+        "name": "몽블랑 사토리얼 카드지갑",
+        "price": "238,000원",
+        "image": "/thumbs/montblanc-sartorial.png",
+        "url": "https://naver.me/xxoH1B5x"
+      },
+      {
+        "name": "필립스 SkinIQ 7000 전기면도기",
+        "price": "219,000원",
+        "image": "/thumbs/philips-skiniq7000.png",
+        "url": "https://naver.me/xEXCTrAK"
+      },
+      {
+        "name": "우르오스 올인원 스킨밀크 200ml",
+        "price": "22,800원",
+        "image": "/thumbs/ulos-skinmilk.png",
+        "url": "https://naver.me/5g4SsUCn"
+      }
+    ]
+  }
+]
